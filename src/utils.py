@@ -1,5 +1,5 @@
-from src.currency_api import get_currency
-from src.redis_crud import cache_manager
+from currency_api import get_currency
+from redis_crud import cache_manager
 
 
 async def update_cache(force: bool = False):

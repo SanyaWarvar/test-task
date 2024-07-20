@@ -1,10 +1,8 @@
-import asyncio
 import datetime
 from typing import Tuple, Dict
-
 from aiohttp import ClientSession
 import xml.etree.ElementTree as ET
-from src.config import CURRENCY_API, DATE_FORMAT
+from config import CURRENCY_API, DATE_FORMAT
 
 
 async def get_data(url=CURRENCY_API) -> str | None:

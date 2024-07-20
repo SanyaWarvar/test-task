@@ -1,8 +1,8 @@
 from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
 from aiogram import Bot, Dispatcher
-from src.config import TOKEN_BOT_API
-from src.bot.handlers import router as handle_router
+from config import TOKEN_BOT_API
+from handlers import router as handle_router
 
 
 async def main():

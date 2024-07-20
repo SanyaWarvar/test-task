@@ -1,8 +1,8 @@
-from typing import Dict, Tuple, List, Awaitable
+from typing import Dict, Tuple, Awaitable
 from datetime import datetime
 import redis
 
-from src.config import DATE_FORMAT, REDIS_PORT, REDIS_HOST, TIMEZONE
+from config import DATE_FORMAT, REDIS_PORT, REDIS_HOST, TIMEZONE
 
 
 class Cache:

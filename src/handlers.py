@@ -1,4 +1,4 @@
-from src.utils import get_rates, convert
+from utils import get_rates, convert
 from aiogram.filters import CommandStart, Command, CommandObject
 from aiogram.types import Message
 from aiogram import Router

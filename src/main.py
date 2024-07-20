@@ -1,7 +1,7 @@
 import asyncio
 import logging
 import sys
-from src.bot.bot import main
+from bot import main
 
 
 if __name__ == "__main__":
